@@ -1,0 +1,40 @@
+
+.nav {
+    position: fixed;
+    top: 0;
+    padding:20px;
+    width: 100%;
+    height: 40px;
+    z-index: 1;
+    transition-timing-function: ease-in;
+    transition : all 0.5 s;
+}
+
+.nav_contants {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_logo{
+    position: fixed;
+    left: 0;
+    width: 80px;
+    object-fit: contain;
+    padding-left:20px;
+    cursor: pointer;
+}
+
+
+
+.nav_avatar{
+    cursor: pointer;
+    position: fixed;
+    right: 20px;
+    height: 50px;
+    width: 50px;
+   
+}
+
+.nav_black {
+    background-color: black;
+}
