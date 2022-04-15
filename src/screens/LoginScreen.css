@@ -31,6 +31,8 @@
     text-align: center;
     margin-right: auto;
     margin-left: auto;
+    left: 0;
+    right: 0;
 }
 
 .loginScreen_input{
@@ -70,16 +72,11 @@
     font-size: 1.175rem; 
     font-weight: 400;
     margin-bottom: 30px;
-
 }
 
 .loginScreen_body > h3 {
-
     font-size: 1.005rem; 
     font-weight: 400;
-
-
-
 }
 
 
